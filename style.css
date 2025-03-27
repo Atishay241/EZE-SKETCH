@@ -1,0 +1,43 @@
+body {
+    height: 100vh;
+    background-color: lightcyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.heading {
+    font-size: 50px;
+    margin: 20px 0px;
+    margin-bottom: 10px;
+}
+
+#container {
+    height: 600px;
+    width: 600px;
+    border: 2px solid black;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.options > * {
+    width: 120px;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 12px;
+    margin: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+button:hover {
+    transform: scale(1.1); /* Increases size smoothly over 0.3s */
+}
+
+.grid-item {
+    border: 1px solid darkgray;
+    box-sizing: border-box;
+    transition: .5s;
+}
