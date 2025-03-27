@@ -1,4 +1,4 @@
-let mode = 0; // 0: black , 1: eraser , 2: random
+let mode = 0; // 0: black , 1: eraser , 2: random , 3: darker
 
 function classmode(a){
     mode = a;
