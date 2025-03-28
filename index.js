@@ -21,7 +21,7 @@ function createGrid(size = 16){
                 square.style.backgroundColor = "black";
             else if(mode == 1){
                 square.style.cursor = 
-                square.style.backgroundColor = "lightcyan"
+                square.style.backgroundColor = "white"
             }
             else if(mode == 2){
                 square.style.backgroundColor = getRandomColor();
@@ -55,7 +55,7 @@ function cleargrid(){
     const nodes = document.getElementsByClassName("grid-item");
     console.log(nodes.length);
     Array.from(nodes).forEach(element => {
-        element.style.backgroundColor = "lightcyan";
+        element.style.backgroundColor = "white";
     });
 }
 
